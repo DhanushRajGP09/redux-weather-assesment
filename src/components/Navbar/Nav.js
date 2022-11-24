@@ -1,13 +1,23 @@
-import React from 'react'
-import "./Nav.scss"
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Nav.scss";
+import { Link } from "react-router-dom";
 const Nav = () => {
-
-    const date = new Date();
-    const days =["","Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
-    const displaydate=  days[date.getDay()]  +", "+date.getDate()+"/"+[date.getMonth() + 1]+"/"+date.getFullYear()+" "+date.getHours()+":"+date.getMinutes()+" "+ 
+  const date = new Date();
+  const days = ["", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  const displaydate =
+    days[date.getDay()] +
+    ", " +
+    date.getDate() +
+    "/" +
+    [date.getMonth() + 1] +
+    "/" +
+    date.getFullYear() +
+    " " +
+    date.getHours() +
+    ":" +
+    date.getMinutes() +
+    " " +
     (date.getHours() >= 12 ? "PM" : "AM");
-
 
   return (
     <div className="navbar">
@@ -26,6 +36,6 @@ const Nav = () => {
       </div>
     </div>
   );
-} 
+};
 
-export default Nav
+export default Nav;

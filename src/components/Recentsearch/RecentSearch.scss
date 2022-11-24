@@ -67,26 +67,29 @@
 .recent-loc-details {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     height: 38px;
-    width: 300px;
+    width: 400px;
 }
 
 .recent-temp {
     display: flex;
     align-items: center;
     height: 38px;
+        margin-left: 10%;
 
 }
 
 .recent-temp-desc {
-    margin-left: 3%;
     height: 21px;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 21px;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 10%;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 21px;
 }
 
 .recent-temp-num {

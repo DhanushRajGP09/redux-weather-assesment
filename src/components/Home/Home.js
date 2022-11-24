@@ -12,7 +12,7 @@ import {
   removeOneFromFav,
   removeOneFromLiked,
 } from "../../features/Weather/weatherSlice";
-import { ReactionButtons } from "../heart";
+
 import sunny from "../../images/icon_mostly_sunny.png";
 import Switch from "react-switch";
 
