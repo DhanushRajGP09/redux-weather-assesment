@@ -1,0 +1,54 @@
+.navbar{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab {
+    overflow: hidden;
+    background: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 14px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.tab button:focus {
+    color: #FAD05B;
+}
+.tab button.active {
+    background-color: blue;
+}
+.tabcontent {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tablinks {
+    color: #FFFFFF;
+}
+.tablinks:focus {
+    border-bottom: 1.5px solid #FAD05B;
+}
+.date{
+    color: #FFFFFF;
+    margin-left: 60%;
+}

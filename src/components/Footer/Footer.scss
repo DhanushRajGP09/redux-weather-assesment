@@ -1,0 +1,120 @@
+.footer{
+  display: flex;
+  align-items: center;
+}
+.footer-contents{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 50px;
+  margin-left: 6%;
+  width:70%;
+  margin-top: 3%;
+}
+.min-max-div{
+  display: flex;
+  
+  height: 49px;
+    width: 120px;
+}
+.precipitation{
+display: flex;
+ 
+  height: 50px;
+  width: 127px;
+
+}
+.precipitation-text{
+    margin-left: 30%;
+      margin-top: 5%;
+      height: 18px;
+      width: 66px;
+      color: #FFFFFF;
+      font-family: Roboto;
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: 18px;
+}
+.visibility-text {
+  margin-left: 40%;
+  margin-top: 5%;
+  height: 18px;
+  width: 66px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.Humidity{
+  display: flex;
+    height: 49px;
+    width: 95px;
+ 
+}
+.Wind{
+  display: flex;
+    height: 50px;
+      width: 108px;
+      
+}
+.Visibility{
+  display: flex;
+  height: 50px;
+    width: 120px;
+
+}
+
+.icon-temperature-info {
+  height: 32px;
+  width: 16px;
+ 
+}
+.min-max {
+  margin-left: 20%;
+  margin-top: 5%;
+  height: 18px;
+  width: 66px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.min-max-temp{
+  margin-left:20%;
+  margin-top: 10%;
+  height: 25px;
+    width: 69px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+.precipitation-temp{
+  margin-left: 30%;
+    margin-top: 10%;
+    height: 25px;
+    width: 69px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+.visibility-temp {
+  margin-left: 40%;
+  margin-top: 10%;
+  height: 25px;
+  width: 69px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 25px;
+}

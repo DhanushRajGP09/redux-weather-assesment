@@ -1,0 +1,114 @@
+.Favourites{
+    display: flex;
+    flex-direction: column;
+    margin: auto 12%;
+    margin-top: 1%;
+    height: 650px;
+    
+}
+.noaddedfav{
+    height: 21px;
+    width: 167px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center
+
+}
+.fav-container{
+   
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255,255,0.2);
+    margin-top: 1%;
+    height: 73px;
+    padding: 2%;
+}
+.no-fav{
+    margin-top: 20%;
+    margin-left:45%;
+}
+.fav-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 2%;
+}
+.fav-count-text{
+
+height: 15px;
+color: #FFFFFF;
+font-family: Roboto;
+font-size: 18px;
+letter-spacing: 0;
+line-height: 15px;
+}
+.fav-loc{
+    height: 19px;
+    width: 150px;
+    color: #FFE539;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.fav-loc-details{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    width: 300px;
+}
+.fav-temp{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    margin-left: 10%;
+   
+}
+.fav-temp-desc{
+height: 21px;
+width: 150px;
+text-align: center;
+margin-right: 5%;
+margin-left: 10%;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.fav-temp-num{
+    height: 38px;
+      
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 38px;
+}
+.fav-temp-c-f{
+    display: flex;
+     height: 24px;
+     
+        width: 18px;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 15px;
+}
+.fav-count button{
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}

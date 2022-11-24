@@ -1,0 +1,85 @@
+  
+.home{
+display: flex;
+flex-direction: column;
+margin-left: 10.5%;
+}
+
+.location-name{
+    height: 24px;
+    margin-top: 4%;
+    width: 153px;
+    color: #FFFFFF;
+    font-family: Roboto;
+     font-size: 20px;
+     font-weight: 500;
+     letter-spacing: 0;
+    line-height: 24px;
+     text-align: center
+
+}
+.add-to-fav-div{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-left: 3%;
+}
+.heart-img{
+    height: 17px;
+    width: 18px;
+}
+.favourite{
+    margin-left: 4.5%;
+    color: #FAD05B; 
+}
+.icon-weather {
+   margin-top: 2%;
+   margin-left: 39%;
+   height: 100px;
+    width: 100px;
+
+}
+.temperature{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 75px;
+margin-top: 1%;
+width: 130px;
+margin-left: 37%;
+}
+.temp{
+  height: 75px;
+  width: 73px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 75px;
+}
+.temp-c-f {
+    height: 30px;
+    width: 55px;
+}
+.temp-desc{
+    height: 25px;
+    margin-top: 1%;
+    margin-left: 38%;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 25px;
+    
+}
+.line-copy {
+    margin-top: 5%;
+    box-sizing: border-box;
+    height: 1px;
+    width: 87%;
+    border: 1px solid #FFFFFF;
+    opacity: 0.3;
+}
